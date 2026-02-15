@@ -1,7 +1,10 @@
-# Parameterized ALU in Verilog
+# RTL Design Projects in Verilog
 
-This project implements a **parameterized Arithmetic Logic Unit (ALU)** in Verilog along with a testbench and waveform generation for functional verification.
+This repository contains basic RTL design modules written in Verilog along with their testbenches.  
 
+## Included Designs
+
+### 1. Parameterized ALU
 ## Features
 - Data width (8-bit)
 - Performs arithmetic and logical operations:
@@ -13,6 +16,13 @@ This project implements a **parameterized Arithmetic Logic Unit (ALU)** in Veril
 - Zero flag generation
 - Complete testbench with stimulus 
 - Waveform dump using VCD for EPWave
+
+### 2. Synchronous FIFO
+- Parameterized depth and data width
+- Implements write and read pointer logic
+- Provides **full** and **empty** status flags
+- Includes a dedicated testbench to verify write/read functionality
+- Demonstrates basic memory-based sequential RTL design
 
 ## Simulation
 The design was verified using **Icarus Verilog** on **EDA Playground**.
